@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* SimulatorLocationToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* SimulatorLocationToolsApp.swift */; };
+		A00000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* Models.swift */; };
+		A00000000000000000000003 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* CommandRunner.swift */; };
+		A00000000000000000000004 /* SimulatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* SimulatorService.swift */; };
+		A00000000000000000000005 /* LocationCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* LocationCatalog.swift */; };
+		A00000000000000000000006 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* AppModel.swift */; };
+		A00000000000000000000007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* ContentView.swift */; };
+		A00000000000000000000008 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* capitals.json */; };
+		A00000000000000000000009 /* SimulatorLocationToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* SimulatorLocationToolsTests.swift */; };
+		A0000000000000000000000A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* XCTest.framework */; };
+		A0000000000000000000000B /* MapSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* MapSearch.swift */; };
+		A0000000000000000000000C /* RouteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* RouteModels.swift */; };
+		A0000000000000000000000D /* GPXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000F /* GPXDocument.swift */; };
+		A0000000000000000000000E /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* RouteService.swift */; };
+		A0000000000000000000000F /* RoutePlaybackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* RoutePlaybackModel.swift */; };
+		A00000000000000000000010 /* RouteBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* RouteBuilderView.swift */; };
+		A00000000000000000000011 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* cities.json */; };
+		A00000000000000000000012 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000014 /* SettingsView.swift */; };
+		A00000000000000000000013 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* LICENSE */; };
+		A00000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016 /* Assets.xcassets */; };
+		A00000000000000000000015 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = F00000000000000000000003 /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00000000000000000000001;
+			remoteInfo = SimulatorLocationTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* SimulatorLocationToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorLocationToolsApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* CommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRunner.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* SimulatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorService.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* LocationCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCatalog.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* capitals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
+		B00000000000000000000009 /* SimulatorLocationToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorLocationToolsTests.swift; sourceTree = "<group>"; };
+		B0000000000000000000000A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		B0000000000000000000000B /* SimulatorLocationTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatorLocationTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000C /* SimulatorLocationToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorLocationToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000D /* MapSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearch.swift; sourceTree = "<group>"; };
+		B0000000000000000000000E /* RouteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModels.swift; sourceTree = "<group>"; };
+		B0000000000000000000000F /* GPXDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXDocument.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* RouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
+		B00000000000000000000011 /* RoutePlaybackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlaybackModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* RouteBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteBuilderView.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		B00000000000000000000014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B00000000000000000000015 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B00000000000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000018 /* SimulatorLocationTools.debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimulatorLocationTools.debug.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000015 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000000A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000003 /* SimulatorLocationTools */,
+				D00000000000000000000005 /* SimulatorLocationToolsTests */,
+				D00000000000000000000004 /* Products */,
+				B00000000000000000000015 /* LICENSE */,
+				B0000000000000000000000A /* XCTest.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000003 /* SimulatorLocationTools */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* SimulatorLocationToolsApp.swift */,
+				B00000000000000000000002 /* Models.swift */,
+				B00000000000000000000003 /* CommandRunner.swift */,
+				B00000000000000000000004 /* SimulatorService.swift */,
+				B00000000000000000000005 /* LocationCatalog.swift */,
+				B00000000000000000000006 /* AppModel.swift */,
+				B00000000000000000000007 /* ContentView.swift */,
+				B0000000000000000000000D /* MapSearch.swift */,
+				B0000000000000000000000E /* RouteModels.swift */,
+				B0000000000000000000000F /* GPXDocument.swift */,
+				B00000000000000000000010 /* RouteService.swift */,
+				B00000000000000000000011 /* RoutePlaybackModel.swift */,
+				B00000000000000000000012 /* RouteBuilderView.swift */,
+				B00000000000000000000014 /* SettingsView.swift */,
+				B00000000000000000000016 /* Assets.xcassets */,
+				B00000000000000000000017 /* Info.plist */,
+				B00000000000000000000018 /* SimulatorLocationTools.debug.entitlements */,
+				D00000000000000000000006 /* Resources */,
+			);
+			path = SimulatorLocationTools;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000B /* SimulatorLocationTools.app */,
+				B0000000000000000000000C /* SimulatorLocationToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000005 /* SimulatorLocationToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000009 /* SimulatorLocationToolsTests.swift */,
+			);
+			path = SimulatorLocationToolsTests;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008 /* capitals.json */,
+				B00000000000000000000013 /* cities.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* SimulatorLocationTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00000000000000000000011 /* Build configuration list for PBXNativeTarget "SimulatorLocationTools" */;
+			buildPhases = (
+				E00000000000000000000021 /* Sources */,
+				F00000000000000000000001 /* Frameworks */,
+				E00000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			packageProductDependencies = (
+				F00000000000000000000003 /* Sparkle */,
+			);
+			name = SimulatorLocationTools;
+			productName = SimulatorLocationTools;
+			productReference = B0000000000000000000000B /* SimulatorLocationTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00000000000000000000002 /* SimulatorLocationToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00000000000000000000012 /* Build configuration list for PBXNativeTarget "SimulatorLocationToolsTests" */;
+			buildPhases = (
+				E00000000000000000000023 /* Sources */,
+				F00000000000000000000002 /* Frameworks */,
+				E00000000000000000000024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00000000000000000000031 /* PBXTargetDependency */,
+			);
+			name = SimulatorLocationToolsTests;
+			productName = SimulatorLocationToolsTests;
+			productReference = B0000000000000000000000C /* SimulatorLocationToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					E00000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					E00000000000000000000002 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = E00000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = E00000000000000000000010 /* Build configuration list for PBXProject "SimulatorLocationTools" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00000000000000000000002;
+			productRefGroup = D00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			packageReferences = (
+				F00000000000000000000004 /* XCRemoteSwiftPackageReference \"Sparkle\" */,
+			);
+			targets = (
+				E00000000000000000000001 /* SimulatorLocationTools */,
+				E00000000000000000000002 /* SimulatorLocationToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000008 /* capitals.json in Resources */,
+				A00000000000000000000011 /* cities.json in Resources */,
+				A00000000000000000000013 /* LICENSE in Resources */,
+				A00000000000000000000014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F00000000000000000000003 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* SimulatorLocationToolsApp.swift in Sources */,
+				A00000000000000000000002 /* Models.swift in Sources */,
+				A00000000000000000000003 /* CommandRunner.swift in Sources */,
+				A00000000000000000000004 /* SimulatorService.swift in Sources */,
+				A00000000000000000000005 /* LocationCatalog.swift in Sources */,
+				A00000000000000000000006 /* AppModel.swift in Sources */,
+				A00000000000000000000007 /* ContentView.swift in Sources */,
+				A0000000000000000000000B /* MapSearch.swift in Sources */,
+				A0000000000000000000000C /* RouteModels.swift in Sources */,
+				A0000000000000000000000D /* GPXDocument.swift in Sources */,
+				A0000000000000000000000E /* RouteService.swift in Sources */,
+				A0000000000000000000000F /* RoutePlaybackModel.swift in Sources */,
+				A00000000000000000000010 /* RouteBuilderView.swift in Sources */,
+				A00000000000000000000012 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000009 /* SimulatorLocationToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00000000000000000000031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00000000000000000000001 /* SimulatorLocationTools */;
+			targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E00000000000000000000101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E00000000000000000000102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E00000000000000000000103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimulatorLocationTools/SimulatorLocationTools.debug.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PQPF7QB46;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SimulatorLocationTools/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simulator Location Tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Adrian Kajda";
+				INFOPLIST_KEY_SUEnableAutomaticChecks = YES;
+				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/SimulatorLocationTools/appcast.xml";
+				INFOPLIST_KEY_SUPublicEDKey = "34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		E00000000000000000000104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PQPF7QB46;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SimulatorLocationTools/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simulator Location Tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Adrian Kajda";
+				INFOPLIST_KEY_SUEnableAutomaticChecks = YES;
+				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/SimulatorLocationTools/appcast.xml";
+				INFOPLIST_KEY_SUPublicEDKey = "34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		E00000000000000000000105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulatorLocationTools.app/Contents/MacOS/SimulatorLocationTools";
+			};
+			name = Debug;
+		};
+		E00000000000000000000106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulatorLocationTools.app/Contents/MacOS/SimulatorLocationTools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00000000000000000000010 /* Build configuration list for PBXProject "SimulatorLocationTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00000000000000000000101 /* Debug */,
+				E00000000000000000000102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00000000000000000000011 /* Build configuration list for PBXNativeTarget "SimulatorLocationTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00000000000000000000103 /* Debug */,
+				E00000000000000000000104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00000000000000000000012 /* Build configuration list for PBXNativeTarget "SimulatorLocationToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00000000000000000000105 /* Debug */,
+				E00000000000000000000106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00000000000000000000001 /* Project object */;
+}

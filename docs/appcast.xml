@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Simulator Location Tools Updates</title>
+    <link>https://github.com/adek/SimulatorLocationTools</link>
+    <description>Updates for Simulator Location Tools.</description>
+    <language>en</language>
+  </channel>
+</rss>

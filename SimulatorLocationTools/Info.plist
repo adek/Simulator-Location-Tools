@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>SUEnableAutomaticChecks</key>
+    <true/>
+    <key>SUFeedURL</key>
+    <string>https://adek.github.io/SimulatorLocationTools/appcast.xml</string>
+    <key>SUPublicEDKey</key>
+    <string>34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=</string>
+</dict>
+</plist>
