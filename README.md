@@ -54,7 +54,7 @@ Simulator location playback accepts latitude and longitude, but not elevation. T
 
 1. Clone this repository.
 2. Open `SimulatorLocationTools.xcodeproj` in Xcode.
-3. Select the **SimulatorLocationTools** scheme and the **My Mac** destination.
+3. Select the **Simulator Location Tools** scheme and the **My Mac** destination.
 4. Build and run.
 
 The project resolves [Sparkle](https://github.com/sparkle-project/Sparkle) through Swift Package Manager for app updates.

@@ -333,7 +333,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Adrian Kajda";
 				INFOPLIST_KEY_SUEnableAutomaticChecks = YES;
-				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/SimulatorLocationTools/appcast.xml";
+				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/Simulator-Location-Tools/appcast.xml";
 				INFOPLIST_KEY_SUPublicEDKey = "34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,7 +365,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Adrian Kajda";
 				INFOPLIST_KEY_SUEnableAutomaticChecks = YES;
-				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/SimulatorLocationTools/appcast.xml";
+				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/Simulator-Location-Tools/appcast.xml";
 				INFOPLIST_KEY_SUPublicEDKey = "34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_STRICT_CONCURRENCY = complete;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulatorLocationTools.app/Contents/MacOS/SimulatorLocationTools";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simulator Location Tools.app/Contents/MacOS/Simulator Location Tools";
 			};
 			name = Debug;
 		};
@@ -402,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_STRICT_CONCURRENCY = complete;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulatorLocationTools.app/Contents/MacOS/SimulatorLocationTools";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simulator Location Tools.app/Contents/MacOS/Simulator Location Tools";
 			};
 			name = Release;
 		};

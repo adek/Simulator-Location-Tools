@@ -74,7 +74,7 @@ struct SettingsView: View {
                 }
 
                 LabeledContent("GitHub") {
-                    Link("adek/SimulatorLocationTools", destination: AppLinks.github)
+                    Link("adek/Simulator-Location-Tools", destination: AppLinks.github)
                 }
 
                 LabeledContent("X") {
@@ -117,7 +117,7 @@ struct AppInformation: Equatable {
 }
 
 enum AppLinks {
-    static let github = URL(string: "https://github.com/adek/SimulatorLocationTools")!
+    static let github = URL(string: "https://github.com/adek/Simulator-Location-Tools")!
     static let x = URL(string: "https://x.com/adekk")!
 }
 
@@ -164,7 +164,7 @@ struct AboutView: View {
                 GridRow {
                     Text("GitHub")
                         .foregroundStyle(.secondary)
-                    Link("adek/SimulatorLocationTools", destination: AppLinks.github)
+                    Link("adek/Simulator-Location-Tools", destination: AppLinks.github)
                 }
                 GridRow {
                     Text("X")
