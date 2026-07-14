@@ -6,7 +6,15 @@ Simulator Location Tools is a native macOS app for developers who need reliable,
 
 It is particularly useful for testing location-aware experiences such as delivery tracking, travel apps, map views, nearby search, geofencing, and location-driven onboarding.
 
-> Screenshots will be added in [`docs/screenshots`](docs/screenshots/).
+## Screenshots
+
+![Select a country and city, preview it on the map, and apply it to a booted simulator.](docs/screenshots/select-location-country-city.png)
+
+*Select a country and city, preview it on Apple Maps, then apply it to a booted iOS Simulator.*
+
+![A driving route playing from Berlin to Opole with the estimated position shown on the map.](docs/screenshots/location-route-play-preview.png)
+
+*Preview and play a driving route with progress, speed controls, and an estimated current position.*
 
 ## What it does
 
