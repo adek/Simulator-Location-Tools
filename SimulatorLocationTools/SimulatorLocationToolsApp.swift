@@ -35,10 +35,10 @@ struct SimulatorLocationToolsApp: App {
         }
 
         Settings {
-            SettingsView()
+            SettingsView(updaterController: updaterController)
                 .preferredColorScheme(preferredColorScheme)
         }
-        .defaultSize(width: 500, height: 300)
+        .defaultSize(width: 500, height: 360)
 
         Window("About Simulator Location Tools", id: AppWindow.about) {
             AboutView()

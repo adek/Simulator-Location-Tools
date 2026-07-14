@@ -35,6 +35,7 @@ enum AppAppearance: String, CaseIterable, Identifiable {
 struct SettingsView: View {
     @AppStorage(AppAppearance.storageKey) private var storedAppearance = AppAppearance.automatic.rawValue
     @Environment(\.openWindow) private var openWindow
+    let updaterController: SPUStandardUpdaterController
 
     private var appearance: Binding<AppAppearance> {
         Binding(
@@ -79,6 +80,16 @@ struct SettingsView: View {
                 LabeledContent("X") {
                     Link("@adekk", destination: AppLinks.x)
                 }
+            }
+
+            Section("Updates") {
+                Button("Check for Updates…") {
+                    updaterController.checkForUpdates(nil)
+                }
+
+                Text("Check whether a newer version of Simulator Location Tools is available.")
+                    .font(.callout)
+                    .foregroundStyle(.secondary)
             }
         }
         .formStyle(.grouped)

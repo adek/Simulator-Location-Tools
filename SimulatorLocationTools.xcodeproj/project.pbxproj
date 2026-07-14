@@ -51,7 +51,7 @@
 		B00000000000000000000008 /* capitals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
 		B00000000000000000000009 /* SimulatorLocationToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorLocationToolsTests.swift; sourceTree = "<group>"; };
 		B0000000000000000000000A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
-		B0000000000000000000000B /* SimulatorLocationTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatorLocationTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000B /* Simulator Location Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simulator Location Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0000000000000000000000C /* SimulatorLocationToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorLocationToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0000000000000000000000D /* MapSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearch.swift; sourceTree = "<group>"; };
 		B0000000000000000000000E /* RouteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModels.swift; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		D00000000000000000000004 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0000000000000000000000B /* SimulatorLocationTools.app */,
+				B0000000000000000000000B /* Simulator Location Tools.app */,
 				B0000000000000000000000C /* SimulatorLocationToolsTests.xctest */,
 			);
 			name = Products;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E00000000000000000000001 /* SimulatorLocationTools */ = {
+		E00000000000000000000001 /* Simulator Location Tools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E00000000000000000000011 /* Build configuration list for PBXNativeTarget "SimulatorLocationTools" */;
+			buildConfigurationList = E00000000000000000000011 /* Build configuration list for PBXNativeTarget "Simulator Location Tools" */;
 			buildPhases = (
 				E00000000000000000000021 /* Sources */,
 				F00000000000000000000001 /* Frameworks */,
@@ -164,12 +164,12 @@
 			);
 			dependencies = (
 			);
-			name = SimulatorLocationTools;
+			name = "Simulator Location Tools";
 			packageProductDependencies = (
 				F00000000000000000000003 /* Sparkle */,
 			);
 			productName = SimulatorLocationTools;
-			productReference = B0000000000000000000000B /* SimulatorLocationTools.app */;
+			productReference = B0000000000000000000000B /* Simulator Location Tools.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E00000000000000000000002 /* SimulatorLocationToolsTests */ = {
@@ -225,7 +225,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E00000000000000000000001 /* SimulatorLocationTools */,
+				E00000000000000000000001 /* Simulator Location Tools */,
 				E00000000000000000000002 /* SimulatorLocationToolsTests */,
 			);
 		};
@@ -287,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		E00000000000000000000031 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E00000000000000000000001 /* SimulatorLocationTools */;
+			target = E00000000000000000000001 /* Simulator Location Tools */;
 			targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -322,7 +322,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7PQPF7QB46;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -339,7 +339,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7PQPF7QB46;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -371,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
@@ -418,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E00000000000000000000011 /* Build configuration list for PBXNativeTarget "SimulatorLocationTools" */ = {
+		E00000000000000000000011 /* Build configuration list for PBXNativeTarget "Simulator Location Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E00000000000000000000103 /* Debug */,
