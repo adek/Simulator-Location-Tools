@@ -164,10 +164,10 @@
 			);
 			dependencies = (
 			);
+			name = SimulatorLocationTools;
 			packageProductDependencies = (
 				F00000000000000000000003 /* Sparkle */,
 			);
-			name = SimulatorLocationTools;
 			productName = SimulatorLocationTools;
 			productReference = B0000000000000000000000B /* SimulatorLocationTools.app */;
 			productType = "com.apple.product-type.application";
@@ -218,12 +218,12 @@
 				Base,
 			);
 			mainGroup = D00000000000000000000002;
+			packageReferences = (
+				F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
 			productRefGroup = D00000000000000000000004 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
-			packageReferences = (
-				F00000000000000000000004 /* XCRemoteSwiftPackageReference \"Sparkle\" */,
-			);
 			targets = (
 				E00000000000000000000001 /* SimulatorLocationTools */,
 				E00000000000000000000002 /* SimulatorLocationToolsTests */,
@@ -251,25 +251,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F00000000000000000000003 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E00000000000000000000021 /* Sources */ = {
@@ -346,16 +327,19 @@
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = SimulatorLocationTools/Info.plist;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimulatorLocationTools/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simulator Location Tools";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Adrian Kajda";
 				INFOPLIST_KEY_SUEnableAutomaticChecks = YES;
 				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/SimulatorLocationTools/appcast.xml";
 				INFOPLIST_KEY_SUPublicEDKey = "34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MARKETING_VERSION = 1.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
@@ -375,16 +359,19 @@
 				DEVELOPMENT_TEAM = 7PQPF7QB46;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SimulatorLocationTools/Info.plist;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimulatorLocationTools/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simulator Location Tools";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Adrian Kajda";
 				INFOPLIST_KEY_SUEnableAutomaticChecks = YES;
 				INFOPLIST_KEY_SUFeedURL = "https://adek.github.io/SimulatorLocationTools/appcast.xml";
 				INFOPLIST_KEY_SUPublicEDKey = "34PCE3EGdt2Kkb0i2UYBA3hWxs+aV3ZlWkLEmF/mz2Q=";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MARKETING_VERSION = 1.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajda.simulatorlocationtools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
@@ -450,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F00000000000000000000003 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00000000000000000000004 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D00000000000000000000001 /* Project object */;
 }
