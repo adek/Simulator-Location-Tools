@@ -6,6 +6,17 @@
     {
       "layers" : [
         {
+          "image-name" : "b353c9ef-8d30-4db1-afbd-1d69aed1489e.png",
+          "name" : "b353c9ef-8d30-4db1-afbd-1d69aed1489e",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              17.237499999999955
+            ]
+          }
+        },
+        {
           "image-name" : "76112d33-7ec6-4301-8034-8d9c8597cb02.png",
           "name" : "76112d33-7ec6-4301-8034-8d9c8597cb02",
           "position" : {
