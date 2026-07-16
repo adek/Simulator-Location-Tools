@@ -22,6 +22,10 @@
     .feature { min-height: 150px; padding: 22px; border: 1px solid rgba(255,255,255,.1); border-radius: 18px; background: #0b1d3f; }
     .feature strong { display: block; margin-bottom: 9px; font-size: 1.05rem; }
     .feature p, footer { margin: 0; color: #b8c5e6; line-height: 1.5; }
+    .screenshots { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(520px, 78%); gap: 18px; overflow-x: auto; padding: 2px 2px 18px; scroll-snap-type: x mandatory; scrollbar-color: #4765bd #0b1d3f; }
+    .shot { margin: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.14); border-radius: 18px; background: #0b1d3f; scroll-snap-align: start; box-shadow: 0 12px 32px rgba(0,0,0,.22); }
+    .shot img { display: block; width: 100%; height: auto; }
+    .shot figcaption { padding: 13px 16px; color: #b8c5e6; font-size: .95rem; }
     footer { margin-top: 64px; font-size: .92rem; }
     footer a { color: #d8e4ff; }
     @media (max-width: 650px) { main { width: min(100% - 28px, 900px); padding-top: 28px; } .hero { padding: 30px; } .features { grid-template-columns: 1fr; } }
@@ -44,6 +48,18 @@
       <article class="feature"><strong>Places</strong><p>Browse an offline catalog of countries, capitals, and cities, or search Apple Maps for a custom place.</p></article>
       <article class="feature"><strong>Routes</strong><p>Calculate driving routes, import GPX, and control playback speed, repeat, and progress.</p></article>
       <article class="feature"><strong>Simulators</strong><p>Apply a location or route to multiple booted iOS Simulators at the same time.</p></article>
+    </section>
+
+    <h2>See it in action</h2>
+    <section class="screenshots" aria-label="App screenshots">
+      <figure class="shot">
+        <img src="screenshots/select-location-country-city.png" alt="Simulator Location Tools location picker showing countries and cities">
+        <figcaption>Choose a country, capital, or city from the built-in offline catalog.</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="screenshots/location-route-play-preview.png" alt="Simulator Location Tools route preview and playback controls">
+        <figcaption>Preview a route and simulate movement with speed and repeat controls.</figcaption>
+      </figure>
     </section>
 
     <footer>
